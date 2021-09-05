@@ -1,0 +1,10 @@
+:root {
+  --ff-primary: "Taviraj", serif;
+  --ff-secondary: "Lato", sans-serif;
+  --ff-tertiary: "Lora", serif;
+  --title-color: #222;
+  --subtitle-color: #f0f0f0;
+  --secondary-color: #999;
+  --btn-color: #d8914a;
+  --btn-hover-color: #dd9b5a;
+}

@@ -1,0 +1,102 @@
+/*************
+Typography
+**************/
+.title h1 {
+  font-family: var(--ff-primary);
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-family: var(--ff-primary);
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.2em;
+}
+
+/*************
+Icon decoration
+**************/
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+.icon img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon span {
+  width: 4vw;
+  height: 0.2rem;
+  background: #fff;
+  z-index: 10;
+}
+
+/*************
+Button decoration
+**************/
+.btn {
+  background: var(--btn-color);
+  padding: 1.5em 1.8em;
+  border-radius: 0.2rem;
+  display: inline-flex;
+  cursor: pointer;
+}
+.btn a {
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: var(--btn-hover-color);
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  width: 5.5rem;
+  height: 5.8rem;
+  background: var(--btn-color);
+  transition: all 0.3s ease;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftLine,
+.rightLine {
+  background: white;
+  width: 30%;
+  height: 0.3rem;
+  transition: all 0.15s linear;
+}
+.floating-btn:hover .leftLine {
+  border-radius: 10rem;
+  cursor: pointer;
+  transform: rotate(-45deg) translate(5px, 0);
+}
+.floating-btn:hover .rightLine {
+  cursor: pointer;
+  border-radius: 10rem;
+  transform: rotate(45deg) translate(-5px, 0);
+}
+
+/* Top bar */
+.top-bar{
+  height: 10%;
+  width: 100%;
+  background: var(--title-color);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: none;
+}

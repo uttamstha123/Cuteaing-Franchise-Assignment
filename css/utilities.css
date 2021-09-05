@@ -1,0 +1,30 @@
+.mt-vs {
+  margin-top: 0.8em;
+}
+.mt-s {
+  margin-top: 1.25em;
+}
+.mt-m {
+  margin-top: 2.5em;
+}
+.mt-l {
+  margin-top: 3em;
+}
+.mt-v {
+  margin-top: 5em;
+}
+.mb-s {
+  margin-bottom: 1.25em;
+}
+.mb-m {
+  margin-bottom: 2.5em;
+}
+.mb-l {
+  margin-bottom: 3em;
+}
+.mb-v {
+  margin-bottom: 5em;
+}
+.mt-vl {
+  margin-bottom: 6em;
+}

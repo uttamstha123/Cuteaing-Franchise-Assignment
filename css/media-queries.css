@@ -1,0 +1,77 @@
+@media all and (max-width: 640px) {
+  /* Resetting */
+  html {
+    font-size: 50%;
+  }
+  /* Header */
+  .header .container {
+    width: 90%;
+    transform: translateY(-50%);
+  }
+  /*************
+  Showcase 
+  **************/
+  .showcase-container > * {
+    flex-direction: column-reverse;
+  }
+  .showcase-container div:last-child {
+    flex-direction: column-reverse;
+  }
+  /*************
+  Menu List
+  **************/
+  .menu-list {
+    flex-direction: column;
+  }
+  .menu-list .title h1 {
+    font-size: 4rem;
+  }
+  .menu-list .subtitle {
+    font-size: 4rem;
+    margin-top: 1em;
+  }
+  .menu-list .list li {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    text-align: left;
+  }
+  /*************
+  Franchise
+  **************/
+  .franchise {
+    width: 90%;
+  }
+  .franchise .title h1 {
+    font-size: 4rem;
+  }
+  .franchise .subtitle {
+    max-width: 90%;
+    font-size: 2.5rem;
+  }
+  .btn a {
+    font-size: 1.5rem;
+  }
+  /*************
+  Sub Container
+  **************/
+  .sub-container {
+    flex-direction: column;
+    padding: 1.5em 0.5em;
+  }
+  .sub-container .wrapper {
+    width: 90%;
+  }
+  .sub-container .title h1 {
+    font-size: 4.5rem;
+  }
+  .sub-container .subtitle {
+    margin-bottom: 2em;
+  }
+  /*************
+  Footer
+  **************/
+  .footer {
+    padding: 5em 10em;
+  }
+}

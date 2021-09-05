@@ -1,0 +1,59 @@
+/* background image animation */
+@keyframes changeBgImage {
+  0% {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/bg-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/bg-2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+  50% {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/bg-3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/bg-4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+      url("../img/bg-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Text animation */
+@keyframes changeText {
+  0% {
+    content: "India’s most affordable tea franchise";
+  }
+  25% {
+    content: "Crafted from premium quality ingredients";
+  }
+  50% {
+    content: "Solar run-portable carts";
+  }
+
+  75% {
+    content: "Utmost hygiene and Eco-friendly cups";
+  }
+  100% {
+    content: "India’s most affordable tea franchise";
+  }
+}
